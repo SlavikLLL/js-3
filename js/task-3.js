@@ -8,5 +8,8 @@ let salaries = {
   
   }
   let sum;
-  sum= 100 + 160 + 130;
+  let x=salaries.John;
+  let y=salaries.Ann;
+  let z=salaries.Pete;
+  sum=x+y+z;
   console.log(sum);
