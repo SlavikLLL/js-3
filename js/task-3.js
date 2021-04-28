@@ -7,9 +7,9 @@ let salaries = {
     Pete: 130
   
   }
-  let sum;
-  let x=salaries.John;
-  let y=salaries.Ann;
-  let z=salaries.Pete;
-  sum=x+y+z;
-  console.log(sum);
+ let sum=0;
+ for(let all  in salaries){
+   sum+=salaries[all];
+   
+ }
+ console.log(sum);
